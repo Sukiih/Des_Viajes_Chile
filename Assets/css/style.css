@@ -31,6 +31,16 @@ body {
     font-size: medium;
 }
 
+/*modifica tamaño burger boton en pantalla pequeña*/
+.navbar-toggler-icon {
+    font-size: 1rem;
+}
+
+/*agrega margen al boton*/
+.navbar-toggler {
+    margin-right: 10px;
+}
+
 .card {
     height: 100%;
     border: 1px solid white;
