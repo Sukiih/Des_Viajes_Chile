@@ -35,17 +35,17 @@ document.addEventListener('DOMContentLoaded', function() {
     var carousel = new bootstrap.Carousel(myCarousel);
 });
 
-//Alerta de correo enviado formulario
+// Alerta de correo enviado formulario
 $('#envia_correo').click(function () {
     alert("El correo fue enviado correctamente...");
 });
 
-//función de tooltip en formulario
+// Función de tooltip en formulario
 $(document).ready(function () {
     $("#envia_correo").tooltip();
 });
 
-//tooltip barra footer
+// Tooltip barra footer
 $(document).ready(function() {
     $('[data-bs-toggle="tooltip"]').tooltip();
 });
