@@ -43,6 +43,7 @@ body {
     object-fit: cover;
 }
 
+/*Separadores*/
 hr {
     border: 1px solid rgba(0, 255, 255, 0.219);
     margin: 0 100px;
@@ -51,3 +52,27 @@ hr {
 .fa-solid {
     font-size: 30px;
 }
+
+h1{
+    font-family: "Raleway";
+    font-weight: light;
+}
+
+p{
+    font-family: "Open Sans";
+    font-weight: lighter;
+}
+
+#viajetext{
+    padding-right: 200px;
+}
+    
+#iconos{
+    padding-left: 300px;
+}
+
+/*botones redes sociales*/
+.btn-soc{
+    font-size: 40px;
+    color: white;
+ }
